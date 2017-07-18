@@ -1,0 +1,16 @@
+header{
+  display: flex;
+  width: auto;
+  height: 69px;
+  position: fixed;
+}
+.headcontent{
+  display: flex;
+
+}
+#logo{
+
+}
+#nav{
+text-align: right;
+}
