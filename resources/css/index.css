@@ -1,16 +1,51 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  background-color: black;
+}
 header{
-  display: flex;
-  width: auto;
-  height: 69px;
+  width: 100%;
   position: fixed;
+  height: 69px;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  background-color: black;
 }
-.headcontent{
+.flex-container{
   display: flex;
-
+  flex-wrap: wrap;
+  justify-content: center;
 }
-#logo{
+header img{
+  height: 50px;
+  padding-left: 10px;
 
 }
 #nav{
-text-align: right;
+  text-align: right;
+  text-decoration: underline;
+  flex-grow: 1;
+  }
+a{
+  text-decoration: underline;
+  color: seashell;
+}
+#nav span{
+  display: inline-block;
+  padding-right: 15px;
+
+}
+
+
+.main{
+  display: inline-block;
+}
+.content{
+
+}
+#mission{
+  align-content: center;
+  justify-content: center;
 }
