@@ -46,6 +46,7 @@ a{
 .content{
   display: inline-block;
   position: relative;
+  align-items: center;
 }
 .mission{
   align-content: center;
@@ -53,30 +54,50 @@ a{
   display: block;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height: 700px;
+  background-repeat: no-repeat;
+  width: 1200px;
+  padding-top: 70px;
   }
 .mission .content{
-  width: 1200px;
   background-color: black;
   display: block;
 }
-
-<!-- Tea -->
-.flex-container{
-
+h2 h4{
+  margin: 0;
+  padding: 10px;
 }
-.content{
-
+<!-- Tea -->
+.tea .flex-container{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 .tealist{
-
+  display: inline-block;
+  justify-content: space-around;
 }
 .tealist span{
-  display: inline-block;
+  display: block;
+  padding: 5px;
 }
-.tea .content{
+.tea{
   width: 1000px;
 }
 .tealist img{
   width: 300px;
   height: 200px;
+  margin: 10px;
+}
+
+<!-- Locations -->
+.locations{
+  width: 1200px;
+  display: block;
+  background-color: white;
+}
+.location{
+  display: inline-block;
+  flex-direction: column;
+  width: 300px;
+  background-color: black;
 }
